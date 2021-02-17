@@ -1,0 +1,276 @@
+html {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    line-height: 1.3;
+}
+
+#top-bar {
+    border-bottom: 1px solid rgb(174, 174, 174);
+    width: 100%;
+    height: 100px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#search-bar {
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    margin-left: 40px;
+    padding-left: 20px;
+    box-shadow: 0px 0px 5px lightgray;
+}
+
+#avatar {
+    margin-top: 7px;
+    height: 25px;
+    width: auto;
+    float: right;
+    margin-right: 40px;
+}
+
+#buttons {
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+#results-stat {
+    font-size: 14px;
+    color: rgb(84, 83, 83);
+}
+
+#search-results {
+    display: flex;
+    padding-left: 175px;
+}
+
+#side-info {
+    margin-top: 50px;
+    border: 1px solid rgb(213, 208, 208);
+    width: 500px;
+    height: 75%;
+    border-radius: 0.5em;
+
+}
+
+#side-info h1 {
+    align-self: flex-end;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+#side-info a {
+    font-size: 14px;
+}
+
+#side-info-title, #side-info-details {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#side-info-title {
+    border-bottom: 1px solid grey;
+}
+.subtitle {
+    margin-top: 0;
+    font-size: 14px;
+}
+.google-logo {
+    margin-top: 7px;
+    margin-left: 20px;
+    height: 30px;
+    width: auto;
+    float: left;
+}
+
+.search-button {
+    padding: 5px 10px;
+    color: grey;
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.search-button:hover {
+    cursor: pointer;
+    border-bottom: 2px solid blue;
+}
+
+.results {
+}
+
+.result-box {
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+.path {
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.result-link {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: rgb(18, 18, 143);
+}
+.videos-result {
+    border-bottom: 1px solid rgba(84, 83, 83, 0.475);
+    width: 85%;
+}
+.videos-title {
+    border-bottom: 1px solid rgba(84, 83, 83, 0.447);
+}
+
+.videos-title h1 {
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: rgb(38, 38, 38);
+}
+.video-preview {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.thumbnail {
+    height: 80px;
+    width: auto;
+    border-radius: 7px;
+}
+
+.video-description {
+    margin-left: 20px;
+}
+
+.video-description p:nth-of-type(1){
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: rgb(69, 69, 69);
+}
+
+.video-description p:nth-of-type(2){
+    margin-top: 3px;
+    margin-bottom: 0;
+    color: rgb(69, 69, 69);
+}
+#alle-anzeigen {
+    position: absolute;
+    bottom: 472px;
+    width: 25em;
+    height: 30px;
+    border-radius: 5em;
+    color: blue;
+    border: 1px solid grey;
+    background-color: white;
+    margin-left: 150px;
+}
+
+#alle-anzeigen:hover {
+    cursor: pointer;
+}
+.description {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.side-info-pic {
+    border-radius: 0.5em;
+    height: 115px;
+    width: auto;
+}
+#similar-searches {
+    margin-top: 40px;
+}
+#similar-searches h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.similar-search-box {
+    display: inline-block;
+}
+
+.similar-search-box:nth-of-type(1) {
+    margin-right: 20px;
+}
+
+.similar-search-box a {
+    display: block;
+    font-size: 16px;
+}
+#google-logo {
+    margin-top: 40px;
+    font-size: 26px;
+    margin-left: 350px;
+}
+.inline {
+    display: inline;
+    margin-right: 0px;
+    padding: 0;
+    letter-spacing: 5px;
+}
+
+.blue {
+    color: rgb(45, 45, 255);
+}
+
+.red {
+    color: rgb(255, 52, 52);
+}
+
+.yellow {
+    color: rgb(255, 214, 50);
+}
+
+.green {
+    color: green;
+}
+
+#page-numbers-navigation {
+    margin-left: 410px;
+}
+
+#page-numbers-navigation a {
+    margin-right: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+}
+
+#location {
+    display: flex;
+    padding-left: 170px;
+    color: rgb(101, 101, 101);
+    border-top: 1px solid rgb(167, 167, 167);
+    border-bottom: 1px solid rgb(167, 167, 167);
+}
+
+#location p:nth-of-type(1) {
+    margin-right: 20px;
+}
+
+#bottom-nav {
+    padding-top: 16px;
+    padding-left: 170px;
+}
+
+#bottom-nav a {
+    margin-right: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(101, 101, 101);
+}
+.grey-area {
+    background-color: rgb(227, 227, 227);
+    height: 50px;
+    font-size: 14px;
+    font-weight: 300;
+}
